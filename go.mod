@@ -18,7 +18,7 @@ go 1.15
 //   not be possible ....)
 
 require (
-	github.com/golang/protobuf v1.4.2
+	github.com/golang/protobuf v1.5.0
 	github.com/hyperledger/fabric v1.4.0-rc1.0.20201118191903-ec81f3e74fa1
 	github.com/hyperledger/fabric-chaincode-go v0.0.0-20201119163726-f8ef75b17719
 	github.com/hyperledger/fabric-contract-api-go v1.1.1
@@ -32,6 +32,7 @@ require (
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
 	golang.org/x/tools v0.0.0-20201023174141-c8cfbd0f21e6
-	google.golang.org/protobuf v1.25.0
+	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
+	google.golang.org/protobuf v1.33.0
 	gopkg.in/yaml.v2 v2.3.0
 )
